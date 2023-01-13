@@ -1,0 +1,87 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+#hero {
+    background-image: url("images/amritsar.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 340px;
+}
+
+h1 {
+    background: #1D3557;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 2px 10px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    background: #457B9D;
+    color: #ffffff;
+    padding: 4px 30px;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+#mid-section {
+    padding: 40px 20px 10px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#mid-section-large {
+    display: flex;
+    flex-direction: column;
+    background: #F1FAEE;
+}
+
+.activity {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%
+}
+
+#guide {
+    display: flex;
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px 10px;
+    justify-content: space-around;
+    text-align: center;
+    background: #A8DADC;
+    border-radius: 10px;
+    box-shadow: 0px 6px 0px #1D3557;
+}
+
+#avatar {
+    width: 180px;
+    height: 240px;
+    padding: 0 4px 0 0;
+    border-radius: 10px;
+}
+
+#texture {
+    color: #1D3557;
+}
+
+#texture-para {
+    font-style: italic; 
+}
+
